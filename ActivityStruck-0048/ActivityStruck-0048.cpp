@@ -13,11 +13,11 @@ int main()
     Mahasiswa mhs; //akan mewakili struktur maasiswa
     cout << "Nomor mahasiswa: ";
     cin >> mhs.nim;
-    cout << "Nama Mahasiswa";
+    cout << "Nama Mahasiswa: ";
     cin >> mhs.nama;
-    cout << "Alamat Mahasiswa";
+    cout << "Alamat Mahasiswa: ";
     cin >> mhs.alamat;
-    cout << "Umur mahasiswa";
+    cout << "Umur mahasiswa: ";
     cin >> mhs.umur;
 
     cout << endl;
