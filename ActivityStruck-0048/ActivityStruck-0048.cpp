@@ -19,5 +19,7 @@ int main()
     cin >> mhs.alamat;
     cout << "Umur mahasiswa";
     cin >> mhs.umur;
+
+    cout << endl;
 }
 
