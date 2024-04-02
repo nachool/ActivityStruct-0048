@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "activity2-struct", "activit
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "contoh3-activiryStruct", "contoh3-activiryStruct\contoh3-activiryStruct.vcxproj", "{51EDE0AF-4398-49F6-84A6-4A949328ABE4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "contoh4-activiryStruct", "contoh4-activiryStruct\contoh4-activiryStruct.vcxproj", "{C23A94A2-2877-4280-B07E-779D46ADC42F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{51EDE0AF-4398-49F6-84A6-4A949328ABE4}.Release|x64.Build.0 = Release|x64
 		{51EDE0AF-4398-49F6-84A6-4A949328ABE4}.Release|x86.ActiveCfg = Release|Win32
 		{51EDE0AF-4398-49F6-84A6-4A949328ABE4}.Release|x86.Build.0 = Release|Win32
+		{C23A94A2-2877-4280-B07E-779D46ADC42F}.Debug|x64.ActiveCfg = Debug|x64
+		{C23A94A2-2877-4280-B07E-779D46ADC42F}.Debug|x64.Build.0 = Debug|x64
+		{C23A94A2-2877-4280-B07E-779D46ADC42F}.Debug|x86.ActiveCfg = Debug|Win32
+		{C23A94A2-2877-4280-B07E-779D46ADC42F}.Debug|x86.Build.0 = Debug|Win32
+		{C23A94A2-2877-4280-B07E-779D46ADC42F}.Release|x64.ActiveCfg = Release|x64
+		{C23A94A2-2877-4280-B07E-779D46ADC42F}.Release|x64.Build.0 = Release|x64
+		{C23A94A2-2877-4280-B07E-779D46ADC42F}.Release|x86.ActiveCfg = Release|Win32
+		{C23A94A2-2877-4280-B07E-779D46ADC42F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
