@@ -18,7 +18,7 @@ int main()
 {
     Mahasiswa mhs[3]; 
     for (int i = 0; i < 3; i++) {
-
+        cout << "data ke-" << (i + 1) << ":" << endl;
         cout << "Nomor mahasiswa: ";
         getline(cin, mhs[i].nim); // cin harus sesudah getline 
         cout << "Nama Mahasiswa: ";
@@ -32,6 +32,7 @@ int main()
 
         cout << "Umur mahasiswa: ";
         cin >> mhs[i].umur;
+        cin.ignore(1, '\n');
     }
 
     for (int i = 0; i < 3; i++) {
