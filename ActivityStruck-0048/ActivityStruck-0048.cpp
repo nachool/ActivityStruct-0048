@@ -1,10 +1,11 @@
 #include <iostream>
 using namespace std;
 
-void input()
-{
-
-}
+struct Mahasiswa {
+    string nim;
+    string nama;
+    string umur;
+};
 
 int main()
 {
