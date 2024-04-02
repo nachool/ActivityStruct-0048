@@ -20,29 +20,29 @@ int main()
     for (int i = 0; i < 3; i++) {
 
         cout << "Nomor mahasiswa: ";
-        getline(cin, mhs.nim); // cin harus sesudah getline 
+        getline(cin, mhs[i].nim); // cin harus sesudah getline 
         cout << "Nama Mahasiswa: ";
-        getline(cin, mhs.nama); // getline berfungsi saat penulisan mana lengkap
+        getline(cin, mhs[i].nama); // getline berfungsi saat penulisan mana lengkap
 
         cout << "Alamat Mahasiswa: " << endl;
         cout << "\t Nama Desa: ";
-        cin >> mhs.alamat.desa;
+        cin >> mhs[i].alamat.desa;
         cout << "\t Nama Kota: ";
-        cin >> mhs.alamat.kota;
+        cin >> mhs[i].alamat.kota;
 
         cout << "Umur mahasiswa: ";
-        cin >> mhs.umur;
+        cin >> mhs[i].umur;
     }
 
     for (int i = 0; i < 3; i++) {
 
         cout << endl;
-        cout << "\n NIM: " << mhs.nim;
-        cout << "\n Nama: " << mhs.nama;
+        cout << "\n NIM: " << mhs[i].nim;
+        cout << "\n Nama: " << mhs[i].nama;
         cout << "\n Alamat: ";
-        cout << "\n \tDesa: " << mhs.alamat.desa;
-        cout << "\n \tKota: " << mhs.alamat.kota;
-        cout << "\n Umur: " << mhs.umur;
+        cout << "\n \tDesa: " << mhs[i].alamat.desa;
+        cout << "\n \tKota: " << mhs[i].alamat.kota;
+        cout << "\n Umur: " << mhs[i].umur;
     }
 }
 
