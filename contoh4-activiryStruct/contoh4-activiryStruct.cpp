@@ -16,28 +16,34 @@ struct Mahasiswa {
 
 int main()
 {
-    Mahasiswa mhs; //akan mewakili struktur maasiswa
-    cout << "Nomor mahasiswa: ";
-    getline(cin, mhs.nim); // cin harus sesudah getline 
-    cout << "Nama Mahasiswa: ";
-    getline(cin, mhs.nama); // getline berfungsi saat penulisan mana lengkap
+    Mahasiswa mhs[3]; 
+    for (int i = 0; i < 3; i++) {
 
-    cout << "Alamat Mahasiswa: " << endl;
-    cout << "\t Nama Desa: ";
-    cin >> mhs.alamat.desa;
-    cout << "\t Nama Kota: ";
-    cin >> mhs.alamat.kota;
+        cout << "Nomor mahasiswa: ";
+        getline(cin, mhs.nim); // cin harus sesudah getline 
+        cout << "Nama Mahasiswa: ";
+        getline(cin, mhs.nama); // getline berfungsi saat penulisan mana lengkap
 
-    cout << "Umur mahasiswa: ";
-    cin >> mhs.umur;
+        cout << "Alamat Mahasiswa: " << endl;
+        cout << "\t Nama Desa: ";
+        cin >> mhs.alamat.desa;
+        cout << "\t Nama Kota: ";
+        cin >> mhs.alamat.kota;
 
-    cout << endl;
-    cout << "\n NIM: " << mhs.nim;
-    cout << "\n Nama: " << mhs.nama;
-    cout << "\n Alamat: ";
-    cout << "\n \tDesa: " << mhs.alamat.desa;
-    cout << "\n \tKota: " << mhs.alamat.kota;
-    cout << "\n Umur: " << mhs.umur;
+        cout << "Umur mahasiswa: ";
+        cin >> mhs.umur;
+    }
+
+    for (int i = 0; i < 3; i++) {
+
+        cout << endl;
+        cout << "\n NIM: " << mhs.nim;
+        cout << "\n Nama: " << mhs.nama;
+        cout << "\n Alamat: ";
+        cout << "\n \tDesa: " << mhs.alamat.desa;
+        cout << "\n \tKota: " << mhs.alamat.kota;
+        cout << "\n Umur: " << mhs.umur;
+    }
 }
 
 
