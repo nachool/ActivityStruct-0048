@@ -18,7 +18,7 @@ int main()
 {
     Mahasiswa mhs; //akan mewakili struktur maasiswa
     cout << "Nomor mahasiswa: ";
-    getline (cin , mhs.nim);
+    getline (cin , mhs.nim); // cin harus sesudah getline 
     cout << "Nama Mahasiswa: ";
     cin >> mhs.nama;
     getline(cin, mhs.nama);
