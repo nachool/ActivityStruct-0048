@@ -21,7 +21,7 @@ int main()
     getline (cin , mhs.nim); // cin harus sesudah getline 
     cout << "Nama Mahasiswa: ";
     cin >> mhs.nama;
-    getline(cin, mhs.nama);
+    getline(cin, mhs.nama); // getline berfungsi saat penulisan mana lengkap
 
     cout << "Alamat Mahasiswa: " << endl;
     cout << "\t Nama Desa: ";
